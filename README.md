@@ -8,11 +8,17 @@ This project is an intelligent job recommendation system powered by **semantic s
 
 ## 🖼️ Preview
 
-| Resume Upload + Filtering | Matching Jobs with Scores |
+| Resume Upload | Jobs available |
 |---------------------------|----------------------------|
-| ![Upload Resume](./screenshots/upload.png) | ![Results Page](./screenshots/results.png) |
+| ![Upload Resume](./images/homepage.png) | ![Results Page](./images/jobs.png) |
 
-> 📌 Place your images inside a `/screenshots` folder in the root directory, and rename accordingly.
+---
+
+## 
+
+| Resume Upload and matching | 
+|---------------------------|
+| ![Upload Resume](./images/matchingjobs.png) |
 
 ---
 
@@ -31,7 +37,7 @@ This project is an intelligent job recommendation system powered by **semantic s
 - 🔁 Generate vector embeddings of resumes and job descriptions via **OpenAI's text-embedding-ada-002**.
 - 📏 Compute **cosine similarity** to determine job fit.
 - 📍 Optional filters: **job title**, **location**, and **type** (on-site/hybrid).
-- ✅ Display strong/moderate/weak matches with clear scoring and job cards.
+- ✅ Display strong/moderate/weak matches and job cards.
 - ➕ Add new job listings dynamically via admin panel.
 
 ---
